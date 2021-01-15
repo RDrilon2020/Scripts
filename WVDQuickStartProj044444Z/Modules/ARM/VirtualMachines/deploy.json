@@ -540,7 +540,7 @@
         },
         "bootDiagnosticStorageAccountName": {
             "type": "string",
-            "defaultValue": "",
+            "defaultValue": "giswvdteststorage",
             "metadata": {
                 "description": "Optional. Storage account used to store boot diagnostic information."
             }
@@ -556,7 +556,7 @@
         },
         "diagnosticStorageAccountId": {
             "type": "string",
-            "defaultValue": "",
+            "defaultValue": "/subscriptions/80e2c3df-bffc-4b44-8111-dda0fe5e7597/resourceGroups/GIS-WVD-TEST/providers/Microsoft.Storage/storageAccounts/giswvdteststorage",
             "metadata": {
                 "description": "Optional. Resource identifier of the Diagnostic Storage Account."
             }
